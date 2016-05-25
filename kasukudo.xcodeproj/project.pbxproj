@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169E703B1CD075FA00EBE464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E703A1CD075FA00EBE464 /* AppDelegate.swift */; };
+		169E703D1CD075FA00EBE464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E703C1CD075FA00EBE464 /* ViewController.swift */; };
+		169E70401CD075FA00EBE464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169E703E1CD075FA00EBE464 /* Main.storyboard */; };
+		169E70421CD075FA00EBE464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169E70411CD075FA00EBE464 /* Assets.xcassets */; };
+		169E70451CD075FA00EBE464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169E70431CD075FA00EBE464 /* LaunchScreen.storyboard */; };
+		169E70501CD075FA00EBE464 /* kasukudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E704F1CD075FA00EBE464 /* kasukudoTests.swift */; };
+		169E705B1CD075FA00EBE464 /* kasukudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E705A1CD075FA00EBE464 /* kasukudoUITests.swift */; };
+		D05A7F921CF56B7F00247E74 /* JR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D05A7F911CF56B7F00247E74 /* JR.mp3 */; };
+		D05A7F941CF56E4500247E74 /* 20000hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D05A7F931CF56E4500247E74 /* 20000hz.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169E704C1CD075FA00EBE464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169E702F1CD075F900EBE464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169E70361CD075F900EBE464;
+			remoteInfo = kasukudo;
+		};
+		169E70571CD075FA00EBE464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169E702F1CD075F900EBE464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169E70361CD075F900EBE464;
+			remoteInfo = kasukudo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169E70371CD075FA00EBE464 /* kasukudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kasukudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169E703A1CD075FA00EBE464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		169E703C1CD075FA00EBE464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		169E703F1CD075FA00EBE464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169E70411CD075FA00EBE464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169E70441CD075FA00EBE464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169E70461CD075FA00EBE464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169E704B1CD075FA00EBE464 /* kasukudoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kasukudoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169E704F1CD075FA00EBE464 /* kasukudoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kasukudoTests.swift; sourceTree = "<group>"; };
+		169E70511CD075FA00EBE464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169E70561CD075FA00EBE464 /* kasukudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kasukudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169E705A1CD075FA00EBE464 /* kasukudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kasukudoUITests.swift; sourceTree = "<group>"; };
+		169E705C1CD075FA00EBE464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05A7F911CF56B7F00247E74 /* JR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JR.mp3; path = "../audioplayer-master/Audioplayer/JR.mp3"; sourceTree = "<group>"; };
+		D05A7F931CF56E4500247E74 /* 20000hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 20000hz.mp3; path = ../../20000hz.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169E70341CD075F900EBE464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169E70481CD075FA00EBE464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169E70531CD075FA00EBE464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169E702E1CD075F900EBE464 = {
+			isa = PBXGroup;
+			children = (
+				D05A7F911CF56B7F00247E74 /* JR.mp3 */,
+				169E70391CD075FA00EBE464 /* kasukudo */,
+				169E704E1CD075FA00EBE464 /* kasukudoTests */,
+				169E70591CD075FA00EBE464 /* kasukudoUITests */,
+				169E70381CD075FA00EBE464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169E70381CD075FA00EBE464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169E70371CD075FA00EBE464 /* kasukudo.app */,
+				169E704B1CD075FA00EBE464 /* kasukudoTests.xctest */,
+				169E70561CD075FA00EBE464 /* kasukudoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169E70391CD075FA00EBE464 /* kasukudo */ = {
+			isa = PBXGroup;
+			children = (
+				D05A7F931CF56E4500247E74 /* 20000hz.mp3 */,
+				169E703A1CD075FA00EBE464 /* AppDelegate.swift */,
+				169E703C1CD075FA00EBE464 /* ViewController.swift */,
+				169E703E1CD075FA00EBE464 /* Main.storyboard */,
+				169E70411CD075FA00EBE464 /* Assets.xcassets */,
+				169E70431CD075FA00EBE464 /* LaunchScreen.storyboard */,
+				169E70461CD075FA00EBE464 /* Info.plist */,
+			);
+			path = kasukudo;
+			sourceTree = "<group>";
+		};
+		169E704E1CD075FA00EBE464 /* kasukudoTests */ = {
+			isa = PBXGroup;
+			children = (
+				169E704F1CD075FA00EBE464 /* kasukudoTests.swift */,
+				169E70511CD075FA00EBE464 /* Info.plist */,
+			);
+			path = kasukudoTests;
+			sourceTree = "<group>";
+		};
+		169E70591CD075FA00EBE464 /* kasukudoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169E705A1CD075FA00EBE464 /* kasukudoUITests.swift */,
+				169E705C1CD075FA00EBE464 /* Info.plist */,
+			);
+			path = kasukudoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169E70361CD075F900EBE464 /* kasukudo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169E705F1CD075FA00EBE464 /* Build configuration list for PBXNativeTarget "kasukudo" */;
+			buildPhases = (
+				169E70331CD075F900EBE464 /* Sources */,
+				169E70341CD075F900EBE464 /* Frameworks */,
+				169E70351CD075F900EBE464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kasukudo;
+			productName = kasukudo;
+			productReference = 169E70371CD075FA00EBE464 /* kasukudo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169E704A1CD075FA00EBE464 /* kasukudoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169E70621CD075FA00EBE464 /* Build configuration list for PBXNativeTarget "kasukudoTests" */;
+			buildPhases = (
+				169E70471CD075FA00EBE464 /* Sources */,
+				169E70481CD075FA00EBE464 /* Frameworks */,
+				169E70491CD075FA00EBE464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169E704D1CD075FA00EBE464 /* PBXTargetDependency */,
+			);
+			name = kasukudoTests;
+			productName = kasukudoTests;
+			productReference = 169E704B1CD075FA00EBE464 /* kasukudoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169E70551CD075FA00EBE464 /* kasukudoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169E70651CD075FA00EBE464 /* Build configuration list for PBXNativeTarget "kasukudoUITests" */;
+			buildPhases = (
+				169E70521CD075FA00EBE464 /* Sources */,
+				169E70531CD075FA00EBE464 /* Frameworks */,
+				169E70541CD075FA00EBE464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169E70581CD075FA00EBE464 /* PBXTargetDependency */,
+			);
+			name = kasukudoUITests;
+			productName = kasukudoUITests;
+			productReference = 169E70561CD075FA00EBE464 /* kasukudoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169E702F1CD075F900EBE464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Miho Takamura";
+				TargetAttributes = {
+					169E70361CD075F900EBE464 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 393T7VJW2G;
+					};
+					169E704A1CD075FA00EBE464 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SWCG62HVZA;
+						TestTargetID = 169E70361CD075F900EBE464;
+					};
+					169E70551CD075FA00EBE464 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SWCG62HVZA;
+						TestTargetID = 169E70361CD075F900EBE464;
+					};
+				};
+			};
+			buildConfigurationList = 169E70321CD075F900EBE464 /* Build configuration list for PBXProject "kasukudo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169E702E1CD075F900EBE464;
+			productRefGroup = 169E70381CD075FA00EBE464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169E70361CD075F900EBE464 /* kasukudo */,
+				169E704A1CD075FA00EBE464 /* kasukudoTests */,
+				169E70551CD075FA00EBE464 /* kasukudoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169E70351CD075F900EBE464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A7F921CF56B7F00247E74 /* JR.mp3 in Resources */,
+				169E70451CD075FA00EBE464 /* LaunchScreen.storyboard in Resources */,
+				169E70421CD075FA00EBE464 /* Assets.xcassets in Resources */,
+				D05A7F941CF56E4500247E74 /* 20000hz.mp3 in Resources */,
+				169E70401CD075FA00EBE464 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169E70491CD075FA00EBE464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169E70541CD075FA00EBE464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169E70331CD075F900EBE464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169E703D1CD075FA00EBE464 /* ViewController.swift in Sources */,
+				169E703B1CD075FA00EBE464 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169E70471CD075FA00EBE464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169E70501CD075FA00EBE464 /* kasukudoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169E70521CD075FA00EBE464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169E705B1CD075FA00EBE464 /* kasukudoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169E704D1CD075FA00EBE464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169E70361CD075F900EBE464 /* kasukudo */;
+			targetProxy = 169E704C1CD075FA00EBE464 /* PBXContainerItemProxy */;
+		};
+		169E70581CD075FA00EBE464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169E70361CD075F900EBE464 /* kasukudo */;
+			targetProxy = 169E70571CD075FA00EBE464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169E703E1CD075FA00EBE464 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169E703F1CD075FA00EBE464 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169E70431CD075FA00EBE464 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169E70441CD075FA00EBE464 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169E705D1CD075FA00EBE464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169E705E1CD075FA00EBE464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169E70601CD075FA00EBE464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = kasukudo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miho.kasukudo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		169E70611CD075FA00EBE464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = kasukudo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miho.kasukudo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		169E70631CD075FA00EBE464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kasukudoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miho.kasukudoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kasukudo.app/kasukudo";
+			};
+			name = Debug;
+		};
+		169E70641CD075FA00EBE464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kasukudoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miho.kasukudoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kasukudo.app/kasukudo";
+			};
+			name = Release;
+		};
+		169E70661CD075FA00EBE464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kasukudoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miho.kasukudoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kasukudo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		169E70671CD075FA00EBE464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kasukudoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miho.kasukudoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kasukudo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169E70321CD075F900EBE464 /* Build configuration list for PBXProject "kasukudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169E705D1CD075FA00EBE464 /* Debug */,
+				169E705E1CD075FA00EBE464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169E705F1CD075FA00EBE464 /* Build configuration list for PBXNativeTarget "kasukudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169E70601CD075FA00EBE464 /* Debug */,
+				169E70611CD075FA00EBE464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169E70621CD075FA00EBE464 /* Build configuration list for PBXNativeTarget "kasukudoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169E70631CD075FA00EBE464 /* Debug */,
+				169E70641CD075FA00EBE464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169E70651CD075FA00EBE464 /* Build configuration list for PBXNativeTarget "kasukudoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169E70661CD075FA00EBE464 /* Debug */,
+				169E70671CD075FA00EBE464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169E702F1CD075F900EBE464 /* Project object */;
+}
