@@ -29,13 +29,26 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XHz-LP-Em0">
+                                <rect key="frame" x="20" y="80" width="335" height="173"/>
+                                <color key="backgroundColor" red="0.88694213779999997" green="0.6275225847" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUc-jW-5ht">
+                                <rect key="frame" x="20" y="275" width="335" height="354"/>
+                                <color key="backgroundColor" red="0.78128981590270996" green="0.90534991025924683" blue="0.94398903846740723" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="myYLabel" destination="CzK-zN-Ytb" id="fnV-yk-t3V"/>
-                        <outlet property="myZLabel" destination="pw4-Xe-jEw" id="5eZ-IP-8Zk"/>
+                        <outlet property="boardimageView" destination="eUc-jW-5ht" id="spd-AK-hkD"/>
+                        <outlet property="outputTextView" destination="XHz-LP-Em0" id="ekb-uT-dvK"/>
+                        <outlet property="yLabel" destination="CzK-zN-Ytb" id="8Ze-5w-NKV"/>
+                        <outlet property="zLabel" destination="pw4-Xe-jEw" id="hib-y0-LNV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

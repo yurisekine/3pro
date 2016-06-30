@@ -14,7 +14,6 @@
 		169E70451CD075FA00EBE464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169E70431CD075FA00EBE464 /* LaunchScreen.storyboard */; };
 		169E70501CD075FA00EBE464 /* kasukudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E704F1CD075FA00EBE464 /* kasukudoTests.swift */; };
 		169E705B1CD075FA00EBE464 /* kasukudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E705A1CD075FA00EBE464 /* kasukudoUITests.swift */; };
-		D05A7F921CF56B7F00247E74 /* JR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D05A7F911CF56B7F00247E74 /* JR.mp3 */; };
 		D05A7F941CF56E4500247E74 /* 20000hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D05A7F931CF56E4500247E74 /* 20000hz.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		169E70561CD075FA00EBE464 /* kasukudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kasukudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169E705A1CD075FA00EBE464 /* kasukudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kasukudoUITests.swift; sourceTree = "<group>"; };
 		169E705C1CD075FA00EBE464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D05A7F911CF56B7F00247E74 /* JR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JR.mp3; path = "../audioplayer-master/Audioplayer/JR.mp3"; sourceTree = "<group>"; };
 		D05A7F931CF56E4500247E74 /* 20000hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 20000hz.mp3; path = ../../20000hz.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 		169E702E1CD075F900EBE464 = {
 			isa = PBXGroup;
 			children = (
-				D05A7F911CF56B7F00247E74 /* JR.mp3 */,
 				169E70391CD075FA00EBE464 /* kasukudo */,
 				169E704E1CD075FA00EBE464 /* kasukudoTests */,
 				169E70591CD075FA00EBE464 /* kasukudoUITests */,
@@ -238,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05A7F921CF56B7F00247E74 /* JR.mp3 in Resources */,
 				169E70451CD075FA00EBE464 /* LaunchScreen.storyboard in Resources */,
 				169E70421CD075FA00EBE464 /* Assets.xcassets in Resources */,
 				D05A7F941CF56E4500247E74 /* 20000hz.mp3 in Resources */,
