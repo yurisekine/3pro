@@ -11,7 +11,7 @@ import CoreMotion
 import AudioToolbox
 import AVFoundation
 
-class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, UIGestureRecognizerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, UIGestureRecognizerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIWebViewDelegate {
 
     var MotionManager: CMMotionManager!
     var audioPlayer:AVAudioPlayer! //
@@ -21,10 +21,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
     @IBOutlet var zLabel: UILabel!
     
     
-   /* @IBOutlet var webview : UIWebView!
+    @IBOutlet var webview : UIWebView!
     @IBOutlet var searchBar: UISearchBar!
     var targetURL = "https://www.google.co.jp"
-    */
+    
     
     var input:AVCaptureDeviceInput!
     var output:AVCaptureVideoDataOutput!
@@ -82,11 +82,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
         NSTimer.scheduledTimerWithTimeInterval(60.0, target: self, selector: #selector(ViewController.hantei), userInfo: nil, repeats: true)
         
         
-        /*
+        
         webview.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
         loadAddressURL()
-        */
+        
+        
+        
         // MotionManagerを生成.
         MotionManager = CMMotionManager()
         
@@ -132,7 +134,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
     }
     
     // メモリ解放
-  /*  override func viewDidDisappear(animated: Bool) {
+   override func viewDidDisappear(animated: Bool) {
         // camera stop メモリ解放
         session.stopRunning()
         
@@ -145,7 +147,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
         }
         session = nil
         camera = nil
-    }*/
+    }
     
     func setupDisplay(){
         //スクリーンの幅
@@ -323,7 +325,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
         
         for feature in features as! [CIFaceFeature] {
             
-                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+                   // AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
             
             
             resultString.appendContentsOf("bounds: \(NSStringFromCGRect(feature.bounds))\n")
@@ -368,8 +370,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
     }
     
     
-    
-   /* func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+ /*   func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         
         
         application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Alert, categories: nil))
@@ -387,7 +388,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
     
     
 
-    /*// ロード時にインジケータをまわす
+    // ロード時にインジケータをまわす
     func webViewDidStartLoad(webView: UIWebView) {
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         print("indicator on")
@@ -398,18 +399,18 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVCaptureVideoDat
         UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         print("indicator off")
     }
-    */
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
     
-   /* func loadAddressURL() {
+    func loadAddressURL() {
         let requestURL = NSURL(string: targetURL)
         let req = NSURLRequest(URL: requestURL!)
         webview!.loadRequest(req)
     }
-    */
+    
 
 
 }
