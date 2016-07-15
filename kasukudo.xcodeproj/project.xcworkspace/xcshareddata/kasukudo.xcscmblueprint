@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "691A5CCE16BA6F776F107256862D5ABF20E5CE3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F9D1B07B029BFAE1CDB5CB7F5BF94E0E9AD6723" : 0,
+    "691A5CCE16BA6F776F107256862D5ABF20E5CE3A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "878A9257-B840-4D71-8EAA-A95934B22653",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F9D1B07B029BFAE1CDB5CB7F5BF94E0E9AD6723" : "",
+    "691A5CCE16BA6F776F107256862D5ABF20E5CE3A" : "kasokudo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "kasukudo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "kasukudo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yurisekine\/smartphoneBeauty.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "691A5CCE16BA6F776F107256862D5ABF20E5CE3A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yurisekine\/background-fetch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F9D1B07B029BFAE1CDB5CB7F5BF94E0E9AD6723"
+    }
+  ]
+}
